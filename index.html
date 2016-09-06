@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WikiViewer</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tipso/1.0.8/tipso.min.css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="logo"><h1>Wiki<span>Viewer</span></h1></div>
+				<form class="searchbox">
+					<input type="text" value="" id="searchInput" autocomplete="off" placeholder="Search something"><button type="submit" class="btn bottom tipso_style"   data-tipso="Search" id="btnSearch"><i class="fa fa-search"></i></button><button class="btn bottom tipso_style"  data-tipso="Get a random article" id="btnRandom"><i class="fa fa-random"></i></button>
+				</form> <!-- end of .searchBox -->
+			</header> <!-- end of header -->
+			<div class="contentWrapper">
+				<div class="content"></div>
+			</div> <!-- end of .contentWrapper -->
+		</div> <!-- end of .wrapper -->
+		<footer><p>created by Yiannis K.</p></footer>
+		<script
+			src="https://code.jquery.com/jquery-1.12.4.min.js"
+			integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			crossorigin="anonymous">
+		</script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tipso/1.0.8/tipso.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
